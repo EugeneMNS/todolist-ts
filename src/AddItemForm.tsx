@@ -3,8 +3,8 @@ import {Button, IconButton, TextField} from "@material-ui/core";
 
 import {AddBox} from '@mui/icons-material';
 
-type AddItemFormPropsType = {
-    addItem: (title: string) => void
+export type AddItemFormPropsType = {
+        addItem: (title: string) => void
 }
 
 export const AddItemForm = React.memo(function (props: AddItemFormPropsType) {
